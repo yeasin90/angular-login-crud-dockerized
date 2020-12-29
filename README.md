@@ -20,8 +20,8 @@ Small front-end application with Login and CRUD funtionality using Angular CLI#1
 docker-compose -f docker/docker-compose.dev.yml up
 ```
 - It will create a container for the web and another container for json-server initialized with some fake data. 
-- Once Docker execution is done, browse the fornt-end ap : http://localhost:4200
-- To see json-server, navigate to : http://localhost:3000/users
+- Front-end app : http://localhost:4200
+- json-server : http://localhost:3000/users
 
 That's it! You are good to go :) 
 
@@ -29,8 +29,8 @@ That's it! You are good to go :)
 ```sh
 docker-compose -f docker/docker-compose.prod.yml up
 ```
-- And navigate to : http://localhost:4201
-- For json-server : http://localhost:3001/users
+- Front-end app : http://localhost:4201
+- json-server : http://localhost:3001/users
 
 If you have any questions/suggestions/issues, feel free to ping me :)
 
