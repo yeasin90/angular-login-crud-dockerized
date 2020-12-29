@@ -15,11 +15,11 @@ Small front-end application with Login and CRUD funtionality using Angular CLI#1
 - Docker Desktop
 ##### Run with docker commands : 
 - Clone the repo. 
-- Open command editor (CMD, PowerShell, Bash etc) from clone directory. Run below docker command (with _environment.dev.ts_)
+- Open command editor (CMD, PowerShell, Bash etc) from clone directory. Run below docker command :
 ```sh
 docker-compose -f docker/docker-compose.dev.yml up
 ```
-- It will create a container for the web and another container for json-server initialized with some fake data. 
+- It will use environment.dev.ts file, create a container for the web, and another container for json-server initialized with some fake data. 
 - Front-end app : http://localhost:4200
 - json-server : http://localhost:3000/users
 
