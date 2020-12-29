@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "David Beckham",
+      "email": "david@beckham.com",
+      "phone": "001-123-4567",
+      "username": "david",
+      "password": "david",
+      "role": {
+        "name": "admin"
+      }
+    },
+    {
+      "name": "Lionel Messi",
+      "email": "lionel@messi.com",
+      "phone": "123-456-789",
+      "id": 2,
+      "username": "messi",
+      "password": "messi",
+      "role": {
+        "name": "moderator"
+      }
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "email": "c@r.com",
+      "phone": "111-222-333",
+      "id": 3,
+      "username": "cr7",
+      "password": "cr7",
+      "role": {
+        "name": "support"
+      }
+    }
+  ]
+}
