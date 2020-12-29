@@ -35,4 +35,10 @@ For json-server : http://localhost:3001/users
 
 If you have any questions/suggestions/issues, feel free to ping me :)
 
+### References :
+- [Pass env argument from docker-compose.yml to Dockerfile](https://dev.to/amerigom/how-to-dockerize-an-angular-app-for-different-environments-1njb)
+- [Dokcerfile template for Angular](https://blog.comtradedigital.com/blog/lets-make-a-docker-image)
+- [Dockerized backend json-server](https://github.com/clue/docker-json-server)
+
+
   
