@@ -33,4 +33,6 @@ And navigate to : http://localhost:4201
 
 For json-server : http://localhost:3001/users
 
+If you have any questions/suggestions/issues, feel free to ping me :)
+
   
