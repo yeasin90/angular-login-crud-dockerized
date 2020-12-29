@@ -1,0 +1,21 @@
+version: "3.4"
+
+services:
+  my-angular:
+    image: my-angular-image-dev
+    hostname: localhost
+    container_name: my-angular-container-dev
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        PROFILE: dev
+    ports:
+      - 4200:80
+  json-server:
+    image: clue/json-server:latest
+    container_name: myjson-server-container-dev
+    ports:
+      - 3000:80
+    volumes:
+      - ../config/dummy-data.json:/data/db.json

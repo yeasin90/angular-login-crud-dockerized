@@ -1,0 +1,10 @@
+<div class="p-4">
+  <div class="container">
+    <h1>Hi {{ user.username }}!</h1>
+    <p class="text-info">
+      You're logged in as {{ user.role.name | uppercase }}
+    </p>
+    <p class="text-info">From {{ environment }}</p>
+    <p><a routerLink="/users">Manage Users</a></p>
+  </div>
+</div>
