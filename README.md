@@ -1,5 +1,5 @@
 # Simple Login and CRUD using Angular CLI#11.0.5 with Docker support
-Small fornt-end application with Login and CRUD funtionality using Angular CLI#11.0.5. 
+Small front-end application with Login and CRUD funtionality using Angular CLI#11.0.5. 
 ### Features: 
 - Multiple Angular modules with services and interceptors
 - Lazy loading of routes with Authentication guards
