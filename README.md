@@ -8,12 +8,8 @@ Small front-end application with Login and CRUD funtionality using Angular CLI#1
 - Uses Dockerized [json-server](https://github.com/clue/docker-json-server) for backed communication. 
 - Environment wise Docker support. Currently : environment.dev.ts and environment.prod.ts. (environment.ts is the place where you will define your environment wise configurations. Example : _dev, test, stage, prod_ etc)
 
-#### Running the app : 
-##### Pre requisites : 
-- NodeJs
-- Angular CLI#11.0.5
-- Docker Desktop
-##### Run with docker commands : 
+### Running the app from docker: 
+##### Run with docker commands: 
 - Clone the repo. 
 - Open command editor (CMD, PowerShell, Bash etc) from clone directory. Run below docker command :
 ```sh
@@ -31,6 +27,12 @@ docker-compose -f docker/docker-compose.prod.yml up
 ```
 - Front-end app : http://localhost:4201
 - json-server : http://localhost:3001/users
+
+### Pre requisites for local development: 
+- NodeJs
+- Angular CLI#11.0.5
+- Docker Desktop
+
 
 If you have any questions/suggestions/issues, feel free to ping me :)
 
