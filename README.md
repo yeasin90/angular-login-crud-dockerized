@@ -8,8 +8,7 @@ Small front-end application with Login and CRUD funtionality using Angular CLI#1
 - Uses Dockerized [json-server](https://github.com/clue/docker-json-server) for backed communication. 
 - Environment wise Docker support. Currently : environment.dev.ts and environment.prod.ts. (environment.ts is the place where you will define your environment wise configurations. Example : _dev, test, stage, prod_ etc)
 
-### Running the app from docker: 
-##### Run with docker commands: 
+### Run the front-end and backend from Docker: 
 - Clone the repo. 
 - Open command editor (CMD, PowerShell, Bash etc) from clone directory. Run below docker command :
 ```sh
